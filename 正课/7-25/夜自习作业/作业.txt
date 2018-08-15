@@ -1,0 +1,17 @@
+﻿1.利用map()和reduce()函数，实现类似于int()的功能。比如:'123'-123
+2.利用map()实现类似于字符串的lower()函数的功能。比如将AbCdEF全部转换成小写
+
+def char_to_number(string):
+    all_number_dict = {'0':0, '1':1, '2':2, '3':3, '4':4, '5':5, '6':6,'7':7, '8':8, '9':9}
+    # 以变量string为键，从all_number_dict中取出对应的值，即取出了整数类型的数字。
+    return all_number_dict[string]
+res = map(char_to_number, '561')
+# print (res)
+
+def result_number(x,y):
+    res = x*10+y
+    return res
+
+result = reduce(result_number, res)  #res = [1,2,3]
+
+print( '最终结果：',result,type(result))

@@ -1,0 +1,7 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.chouti.com	TRUE	/	FALSE	1536831091	gpsd	e33d34de0842d5ed7e04f8731a2cd2d8
+.chouti.com	TRUE	/	FALSE	1536831091	puid	42a1f31a229d892910f70ebcbb9515ee
+dig.chouti.com	FALSE	/	FALSE		JSESSIONID	aaa3BYQ5VjYQgd1ownYuw
